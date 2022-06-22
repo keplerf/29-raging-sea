@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: red;
+  background: rgb(0, 121, 177);
+  background: linear-gradient(
+    148deg,
+    rgba(0, 121, 177, 1) 0%,
+    rgba(56, 219, 0, 1) 100%
+  );
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  /* mix-blend-mode: luminosity; */
+}
